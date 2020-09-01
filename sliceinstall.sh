@@ -296,8 +296,8 @@ sudo sed -i "s/{MASTER_IP}/$masterip/" san.cnf
 
     
 
-####Begin Master Start#####
-echo -e "\e[96m Installation is complete. Starting Master Service.  \e[39m"
+####Begin Prime Start#####
+echo -e "\e[96m Installation is complete. Starting Prime Service.  \e[39m"
 sleep 2
 
 ###################Starting the Services#######################3
@@ -319,9 +319,9 @@ sleep 2
     sleep 2
 
 #Enable service at startup
-echo -e "\e[96m Enable Slicemaster service  \e[39m"
+echo -e "\e[96m Enable SlicePrimw service  \e[39m"
 sudo systemctl enable slicemaster
-echo -e "\e[96m Start Slicemaster service  \e[39m"
+echo -e "\e[96m Start SlicePrime service  \e[39m"
 sudo systemctl start slicemaster
-echo -e "\e[96m Slicemaster service started. \e[39m"
+echo -e "\e[96m SlicePrime service started. \e[39m"
 
