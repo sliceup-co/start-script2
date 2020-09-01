@@ -145,9 +145,9 @@ export SSHPASS="$sspass1"
     sleep 2
 
 
-##########################Begin Master Install#####################################
+##########################Begin Prime Install#####################################
 
-	echo -e "\e[96m Starting master's install. \e[39m"
+	echo -e "\e[96m Starting Prime's install. \e[39m"
 
 #update system
     sudo apt-get update
